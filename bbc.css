@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header{
+    background: red;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+nav{
+    background: black;
+    height: 10vh;
+    width: 100%;
+    padding: 20px;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+nav :hover{
+    background: gray;
+    color: red;
+}
+.parent-one{
+    background: gray;
+    width: 100%;
+    height: 103vh;
+}
+.parent-one .left-card{
+    width: 65%;
+    background: white;
+    height: 100vh;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.parent-one .left-card a img{
+    width: 100%;
+}
+.parent-one .left-card a{
+    text-decoration: none;
+}
+.left-card  h1{
+    
+    color: black;
+}
+.left-card a p{
+    color: black;
+}
+.left-card :hover{
+    background-color: rgb(195, 200, 221);
+}
+
+.parent-one .rigth-card{
+    background: white;
+    width: 30%;
+    height: 45vh;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+.rigth-card a img{
+    width: 100%;
+}
+.rigth-card a {
+    text-decoration: none;
+    color: black;
+}
+.rigth-card a h1{
+    font-size: 1rem;
+}
+.rigth-card :hover{
+    background: rgb(195, 200, 221);
+}
+.parent-one .rigth-card2{
+    background: white;
+    width: 30%;
+    height: 45vh;
+    float: right;
+    position: relative;
+    top: 72px;
+    right: 5px;
+}
+.rigth-card2 a{
+    text-decoration: none;
+    color: black;
+}
+.rigth-card2 a img{
+    width: 100%;
+}
+.rigth-card2 a h1{
+    font-size: 1rem;
+}
+.parent-two{
+    background: gray;
+    width: 100%;
+    height: 103vh;
+}
+.parent-two .left-card{
+    width: 65%;
+    background: white;
+    height: 100vh;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.parent-two .left-card a{
+    text-decoration: none;
+    color: black;
+}
+.parent-two .left-card a img{
+    width: 100%;
+}
+
+
+.parent-two .rigth-card{
+    background: white;
+    width: 30%;
+    height: 45vh;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+.parent-two .rigth-card2{
+    background: white;
+    width: 30%;
+    height: 45vh;
+    float: right;
+    position: relative;
+    top: 72px;
+    right: 5px;
+}
+.parent-three{
+    background: gray;
+    width: 100%;
+    height: 103vh;
+    
+}
+.parent-three :nth-child(1){
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.parent-three .card-1{
+    width: 45%;
+    height: 80vh;
+    float: left;
+    background: yellow;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.card-1 a{
+    text-decoration: none;
+    color: black;
+}
+.card-1 a img{
+    width: 100%;
+}
+.card-1 h1{
+    color: black;
+    font-size: 1.7rem;
+}
+
+.parent-three .card-2{
+    width: 45%;
+    height: 80vh;
+    float: right;
+    background: yellow;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+.card-2 h1{
+    color: black;
+    font-size: 1.7rem;
+}
+.card-2 a{
+    text-decoration: none;
+    color: black;
+}
+.card-2 a img{
+    width: 100%;
+}
+.parent-four{
+    background: gray;
+    width: 100%;
+    height: 103vh;
+    
+}
+.parent-four h1{
+    font-size: 5rem;
+    color: black;
+    text-align: center;
+}
